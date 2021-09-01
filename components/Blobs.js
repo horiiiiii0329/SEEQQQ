@@ -3,7 +3,7 @@ import Blob2 from "./UI/Vector 2.svg";
 import Blob3 from "./UI/Vector 3.svg";
 import Image from "next/image";
 
-function Heroes() {
+function Blobs() {
   return (
     <div className="z-0">
       <div className="absolute top-0 right-0 ">
@@ -19,4 +19,4 @@ function Heroes() {
   );
 }
 
-export default Heroes;
+export default Blobs;
