@@ -13,7 +13,7 @@ function Heroes() {
         </p>
       </div>
       <div className="justify-self-end">
-        <Image src={img} />
+        <Image src={img} width="500px" height="500px" objectFit="contain" />
       </div>
     </div>
   );
