@@ -2,7 +2,7 @@ import Logo from "./UI/Logo";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between py-9 px-10 md:px-40">
+    <header className="flex items-center justify-between py-9 px-10 md:px-40 z-20 bg-transparent relative">
       <div>
         <Logo />
       </div>

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
-import Heroes from "../components/Heroes";
+import Heroes from "../components/Blobs";
 
 export default function Home() {
   return (
@@ -9,10 +9,12 @@ export default function Home() {
         <title>SEEQ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <Header />
-        <Heroes />
-      </div>
+
+      <Header />
+      <Heroes />
+
+      <>
+
     </div>
   );
 }
