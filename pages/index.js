@@ -4,6 +4,7 @@ import Blobs from "../components/Blobs";
 import Heroes from "../components/Heroes";
 import BigCard from "../components/BigCard";
 import ButtonBar from "../components/ButtonBar";
+import SearchBar from "../components/SearchBar";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Heroes />
         <BigCard />
         <ButtonBar />
+        <SearchBar />
       </main>
     </div>
   );
