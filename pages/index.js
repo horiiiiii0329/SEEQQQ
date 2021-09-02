@@ -16,8 +16,9 @@ export default function Home() {
         <title>SEEQ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header />
       <Blobs />
+
       <main className="max-w-7xl mx-auto px-4 z-20 relative">
         <Heroes />
         <BigCard />

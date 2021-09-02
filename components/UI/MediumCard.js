@@ -15,7 +15,7 @@ function MediumCard() {
       </div>
       <div className="py-2">
         <p className="text-gray-400 font-light">渋谷区</p>
-        <h3 className="text-lg  font-semibold mb-1 w-64">
+        <h3 className="text-lg  font-semibold mb-1 ">
           隠れ家カフェを見つけてみませんか？
         </h3>
         <p className="line-clamp-3 my-2 ">

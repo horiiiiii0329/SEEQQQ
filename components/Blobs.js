@@ -9,7 +9,7 @@ function Blobs() {
       <div className="absolute top-0 right-0 ">
         <Image src={Blob1} />
       </div>
-      <div className="absolute left-[15%] top-0">
+      <div className="absolute left-56 top-0">
         <Image src={Blob2} height="1200px" />
       </div>
       <div className="absolute bottom-[-1600px] left-0 ">
