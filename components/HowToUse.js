@@ -1,9 +1,11 @@
 import idea from "./UI/Business Plan.svg";
+import location from "./UI/Location.svg";
+import team from "./UI/Workflow Teamwork.svg";
 import Image from "next/image";
 
 function HowToUse() {
   return (
-    <section className="pt-32">
+    <section className="pt-32 flex-col text-center">
       <h3 className="text-3xl font-bold text-center tracking-widest">
         SEEQの仕組み
       </h3>
@@ -12,7 +14,7 @@ function HowToUse() {
         <br />
         アカウントは無料で作成できます。
       </p>
-      <div className="grid grid-cols-3 gap-x-2">
+      <div className="grid grid-cols-3 gap-x-10 pt-8">
         <div>
           <Image src={idea} width="400px" height="380px" />
           <h3 className="text-2xl font-bold text-center pb-3 text-[#1D3557]">
@@ -23,24 +25,27 @@ function HowToUse() {
           </p>
         </div>
         <div>
-          <Image src={idea} width="400px" height="380px" />
+          <Image src={team} width="400px" height="380px" />
           <h3 className="text-2xl font-bold text-center pb-3 text-[#1D3557]">
-            アカウントを作成する
+            プランをシェアしましょう
           </h3>
           <p className="text-xl text-center">
-            いくつかの簡単なステップでアカウント作成できます。
+            さりげないプランは誰かの幸せになるかもしれません。
           </p>
         </div>
         <div>
-          <Image src={idea} width="400px" height="380px" />
+          <Image src={location} width="400px" height="380px" />
           <h3 className="text-2xl font-bold text-center pb-3 text-[#1D3557]">
-            アカウントを作成する
+            新しいアイディアを発見する
           </h3>
           <p className="text-xl text-center">
-            いくつかの簡単なステップでアカウント作成できます。
+            あなたの大切な人と幸せなひと時を過ごしてください！
           </p>
         </div>
       </div>
+      <button className="px-8 rounded-lg  bg-[#FE4A49] font-bold text-white py-2 mt-20">
+        会員登録
+      </button>
     </section>
   );
 }
