@@ -6,6 +6,8 @@ import BigCard from "../components/BigCard";
 import ButtonBar from "../components/ButtonBar";
 import SearchBar from "../components/SearchBar";
 import HowToUse from "../components/HowToUse";
+import DatePlan from "../components/DatePlan";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -23,7 +25,9 @@ export default function Home() {
         <ButtonBar />
         <SearchBar />
         <HowToUse />
+        <DatePlan />
       </main>
+      <Footer />
     </div>
   );
 }
