@@ -5,6 +5,7 @@ import Heroes from "../components/Heroes";
 import BigCard from "../components/BigCard";
 import ButtonBar from "../components/ButtonBar";
 import SearchBar from "../components/SearchBar";
+import HowToUse from "../components/HowToUse";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <BigCard />
         <ButtonBar />
         <SearchBar />
+        <HowToUse />
       </main>
     </div>
   );
